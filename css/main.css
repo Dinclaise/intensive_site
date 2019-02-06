@@ -1,1 +1,57 @@
+body {
 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #7c8d9c;
+}
+
+.title-1 {
+
+	color: #000000;
+	font-size: 34px;
+	text-transform: uppercase;
+	margin-top: 77px;
+	margin-bottom: 19px;
+}
+
+.subtitle {
+
+	color: #3a4d5c;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+.features-title {
+
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.33px;
+}
+
+.list {
+
+	font-size: 13px;
+	line-height: 28px;
+}
+
+.details {
+
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.28px;
+}
+
+.details-item {
+
+	margin-right: 20px;
+}
+
+.quantity {
+
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
