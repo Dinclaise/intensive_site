@@ -1,3 +1,8 @@
+* {
+
+	box-sizing: border-box;
+}
+
 body {
 
 	font-family: 'Montserrat', sans-serif;
@@ -10,6 +15,11 @@ body {
 	width: 540px;
 	height: 700px;
 	background-color: #ffffff;
+	padding-top: 75px;
+	padding-left: 80px;
+	padding-bottom: 75px;
+	padding-right: 21px;
+	border: 1px solid red;
 }
 
 .title-1 {
@@ -17,7 +27,6 @@ body {
 	color: #000000;
 	font-size: 34px;
 	text-transform: uppercase;
-	margin-top: 77px;
 	margin-bottom: 19px;
 }
 
@@ -43,7 +52,27 @@ body {
 
 	font-size: 13px;
 	line-height: 28px;
+	margin-top: 0;
 	margin-bottom: 45px;
+	color: #7c8d9c;
+	list-style-type: none;
+}
+
+.list li {
+
+	position: relative;
+}
+
+.list li::before {
+	
+	content: "";
+	width: 5px;
+	height: 5px;
+	background-color: #00c217;
+	display: block;
+	position: absolute;
+	left: -12px;
+	top: 12px;
 }
 
 .details {
@@ -63,11 +92,30 @@ body {
 
 	font-size: 11px;
 	text-transform: uppercase;
-	margin-bottom: 75px;
+	margin-bottom: 10px;
 }
+
+.counter {
+	
+	display: flex;
+	margin-left: 1px;
+	margin-bottom: 20px;
+}
+
+.counter-button {
+
+	width: 40px;
+	height: 35px;
+	border: 1px solid #7c8d9c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -1px;
+}
+
 .price-wrapper {
 
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .price {
@@ -91,6 +139,7 @@ body {
 	font-weight: 400;
 	background-color: #1251d1;
 	border:none;
+	margin-right: 20px;
 }
 
 .button-wish-list {
