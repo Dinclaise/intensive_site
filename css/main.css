@@ -10,6 +10,15 @@ body {
 	color: #7c8d9c;
 }
 
+.card-photo-block {
+
+	width: 465px;
+	height: 610px;
+	background-color: #ffd617;
+}
+
+
+
 .card-details {
 
 	width: 540px;
