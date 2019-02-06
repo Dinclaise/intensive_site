@@ -8,6 +8,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	color: #7c8d9c;
+	background-color: #4BE9F7;
+}
+
+.card-wrapper {
+
+	display: flex;
+	width: 1005px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
 }
 
 .card-photo-block {
@@ -15,6 +25,23 @@ body {
 	width: 465px;
 	height: 610px;
 	background-color: #ffd617;
+	position: relative;
+	margin-top: 45px;
+
+}
+
+.card-product-logo {
+
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+
+.card-product-img {
+
+	position: absolute;
+	top: 83px;
+	left: -134px;
 }
 
 
@@ -28,7 +55,9 @@ body {
 	padding-left: 80px;
 	padding-bottom: 75px;
 	padding-right: 21px;
-	border: 1px solid red;
+	box-shadow: -31px 3px 66px -35px rgba(0,0,0,0.75);
+	z-index: 1;
+	position: relative;
 }
 
 .title-1 {
@@ -65,6 +94,7 @@ body {
 	margin-bottom: 45px;
 	color: #7c8d9c;
 	list-style-type: none;
+	padding-left: 12px;
 }
 
 .list li {
