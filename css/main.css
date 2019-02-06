@@ -44,8 +44,6 @@ body {
 	left: -134px;
 }
 
-
-
 .card-details {
 
 	width: 540px;
@@ -190,4 +188,44 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+}
+
+/*----End Blcoks--*/
+
+.cart {
+
+	background-color: #fff;
+	padding: 30px 20px;
+	margin-top: 35px;
+	width: 1005px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+}
+
+.cart-img {
+
+	width: 48px;
+	height: auto;
+	margin-right: 35px;
+}
+
+.card-text {
+
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.cart-items {
+	
+	color: #1683d3;
+}
+
+.clear-cart {
+
+	color: #ECB9bb;
+	margin-left: auto;
+	border-bottom: 1px dotted #ecb9b9;
+	cursor: pointer;
 }
