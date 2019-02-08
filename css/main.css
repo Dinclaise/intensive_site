@@ -150,6 +150,11 @@ body {
 	margin-left: -1px;
 }
 
+.counter-minus, .counter-plus {
+
+	cursor: pointer;
+}
+
 .price-wrapper {
 
 	margin-bottom: 20px;

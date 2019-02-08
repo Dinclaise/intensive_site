@@ -5,6 +5,10 @@
 	<title>FUJIFILM X-T10</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
 </head>
 <body>
 	
@@ -43,19 +47,19 @@
 				<div class="quantity">Quantity</div>
 				<div class="counter">
 
-					<button id="minus"class="counter-button">-</button>
-					<div class="counter-button">1</div>
-					<button id="plus"class="counter-button">+</button>
+					<button id="minus"class="counter-button counter-minus">-</button>
+					<div id="quantityCell" class="counter-button">1</div>
+					<button id="plus"class="counter-button counter-plus">+</button>
 					
 				</div>
 				
 
 				<div class="price-wrapper">
-					<span class="price">$599</span>
+					<span class="price" data-price="500">$500</span>
 					<span class="old-price">Old Price: $799</span>
 				</div>	
 
-				<button class="button">Add to Cart</button>
+				<button id="addToCart" class="button">Add to Cart</button>
 				<button class="button-wish-list">Add to Wish List </button>
 
 		</div>
@@ -72,7 +76,7 @@
 		
 		<div class="cart-text">
 			
-			В корзине: <span class="cart-items">5</span> товаров на сумму <span class="cart-items">3000$</span>
+			В корзине: <span id="items-count" class="cart-items">5</span> товаров на сумму <span id="price-total" class="cart-items">3000$</span>
 		</div>
 
 		<div class="clear-cart">
