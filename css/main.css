@@ -227,8 +227,14 @@ body {
 	color: #1683d3;
 }
 
-.clear-cart {
+.cart-with-items {
 
+	display: none;
+}
+
+.clear-cart {
+	
+	display: none;
 	color: #ECB9bb;
 	margin-left: auto;
 	border-bottom: 1px dotted #ecb9b9;
